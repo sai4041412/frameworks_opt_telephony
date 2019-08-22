@@ -76,7 +76,6 @@ import android.util.Pair;
 import android.util.SparseArray;
 import android.view.WindowManager;
 
-import com.android.internal.telephony.cdma.CdmaSubscriptionSourceManager;
 import com.android.internal.annotations.VisibleForTesting;
 import com.android.internal.telephony.CarrierActionAgent;
 import com.android.internal.telephony.DctConstants;
@@ -96,6 +95,7 @@ import com.android.internal.telephony.uicc.IccRecords;
 import com.android.internal.telephony.uicc.RuimRecords;
 import com.android.internal.telephony.uicc.SIMRecords;
 import com.android.internal.telephony.uicc.UiccController;
+import com.android.internal.telephony.cdma.CdmaSubscriptionSourceManager;
 import com.android.internal.util.ArrayUtils;
 import com.android.internal.util.AsyncChannel;
 
